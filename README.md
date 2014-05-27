@@ -43,6 +43,7 @@ AngularCreator generator:
 ``` pry
 > rails g angular_creator:controller ControllerName
    create  app/assets/javascripts/ng/controllers/controller_name.coffee
+
 > cat app/assets/javascripts/ng/controllers/controller_name.coffee
 @APP.controller.ControllerName = [
   "$scope"
@@ -56,6 +57,8 @@ AngularCreator generator:
 > rails g angular_creator:directive DirectiveName
    create  app/assets/javascripts/ng/directives/directive_name.coffee
    create  app/assets/html/directive_name.html.slim
+```
+```
 > cat app/assets/javascripts/ng/directives/directive_name.coffee.erb
 @APP.directive.DirectiveName = [
   () ->
@@ -72,15 +75,19 @@ AngularCreator generator:
     # ]
     link: ($scope, $element, $attrs) ->
 ]
+```
+```
 > cat app/assets/html/directive_name.html.slim
 .directive_name
   | text in DirectiveName directive%
 ```
 
 ### generator angular factory
-``` pry
+```
 > rails g angular_creator:factory '$factoryName' 
    create  app/assets/javascripts/ng/factories/factory_name.coffee
+```
+```
 > cat app/assets/javascripts/ng/factories/factory_name.coffee
 @APP.factory.$factoryName = [
   () ->
@@ -92,6 +99,8 @@ AngularCreator generator:
 ``` pry
 > rails g angular_creator:filter filter_name
    create  app/assets/javascripts/ng/filters/filter_name.coffee
+```
+```
 > cat app/assets/javascripts/ng/filters/filter_name.coffee
 @APP.filter.FilterName = [
   ->
@@ -104,6 +113,8 @@ AngularCreator generator:
 ``` pry
 > rails g angular_creator:service Service_Name
    create  app/assets/javascripts/ng/services/service_name.coffe
+```
+```
 > cat app/assets/javascripts/ng/services/service_name.coffe
 @APP.service.ServiceName = [
   () ->
