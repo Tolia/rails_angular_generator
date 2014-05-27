@@ -1,5 +1,5 @@
-@APP.filter.<%= @name %> = [
+@APP.filter.<%= class_name %> = [
   ->
-    <%= @name %> = (data) ->
+    <%= class_name %> = (data) ->
       data
 ]

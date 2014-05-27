@@ -8,14 +8,12 @@ module AngularCreator
     private
 
     def create_directive
-      @name = file_name
-      @template_url = "<%= asset_path \"#{@name}.html\" %>"
-      template "directive.coffee", "#{dir_path}/#{@name}.coffee.erb"
+      @template_url = "<%= asset_path \"#{generator_file}.html\" %>"
+      template "directive.coffee", "#{dir_path}/#{generator_file}.coffee.erb"
     end
 
     def create_template
-      @name = file_name
-      template "directive.slim",   "#{RailsAngularCreator::ASSETS_HTML_DIR}/#{@name}.html.slim"
+      template "directive.slim", "#{RailsAngularCreator::ASSETS_HTML_DIR}/#{generator_file}.html.slim"
     end
 
   end

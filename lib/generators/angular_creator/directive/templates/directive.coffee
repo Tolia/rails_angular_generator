@@ -1,11 +1,11 @@
-@APP.directive.<%= @name %> = [
+@APP.directive.<%= class_name %> = [
   () ->
     restrict: "C" # "ACE"
     # transclude: true    
     replace: true
     templateUrl: '<%= @template_url %>'
     # scope:
-    #   <%= @name %>: '=<%= @name %>'
+    #   <%= class_name %>: '=<%= class_name %>'
     # controller: [
     #   "$scope"
     #   "$attrs"

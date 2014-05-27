@@ -1,4 +1,4 @@
-@APP.controller.<%= @name %> = [
+@APP.controller.<%= class_name %> = [
   "$scope"
   "$attrs"
   ($scope, $attrs) ->

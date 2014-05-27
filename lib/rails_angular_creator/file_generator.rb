@@ -8,17 +8,20 @@ module RailsAngularCreator
     end
 
     def create
-      @name = file_name
-      template "#{generator}.coffee", "#{dir_path}/#{@name.gsub(/\$/,'')}.coffee"
+      template "#{generator_name}.coffee", "#{dir_path}/#{generator_file}.coffee"
     end
 
     private
 
-    def dir_path
-      ::RailsAngularCreator::ANGULAR_DIRS[ generator.pluralize.to_sym ]
+    def generator_file
+      "#{ class_name.gsub(/\$/,'').underscore }"
     end
 
-    def generator
+    def dir_path
+      ::RailsAngularCreator::ANGULAR_DIRS[ generator_name.pluralize.to_sym ]
+    end
+
+    def generator_name
       @generator ||= self.class.name.demodulize.gsub("Generator","").downcase
     end
 

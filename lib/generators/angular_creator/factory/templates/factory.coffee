@@ -1,4 +1,4 @@
-@APP.factory.<%= @name %> = [
+@APP.factory.<%= class_name %> = [
   () ->
-    <%= @name %> = {}
+    <%= class_name %> = {}
 ]

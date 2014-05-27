@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rails_angular_initializer (0.0.1)
+    rails_angular_creator (0.0.1)
       rails (>= 3)
 
 GEM
@@ -87,4 +87,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rails_angular_initializer!
+  rails_angular_creator!
