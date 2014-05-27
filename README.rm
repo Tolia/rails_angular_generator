@@ -42,20 +42,20 @@ AngularCreator generator:
 
 ### generator angular controller
 ```
-> rails g angular_creator:controller controller_name
+> rails g angular_creator:controller ControllerName
    create  app/assets/javascripts/ng/controllers/controller_name.coffee
 ```
 
 ### generator angular directive
 ```
-> rails g angular_creator:directive directive_name
+> rails g angular_creator:directive DirectiveName
    create  app/assets/javascripts/ng/directives/directive_name.coffee
    create  app/assets/html/directive_name.html.slim
 ```
 
 ### generator angular factory
 ```
-> rails g angular_creator:factory factory_name  
+> rails g angular_creator:factory $factoryName 
    create  app/assets/javascripts/ng/factories/factory_name.coffee
 ```
 
@@ -67,6 +67,6 @@ AngularCreator generator:
 
 ### generator angular service‎
 ```
-> rails g angular_creator:service‎ fservice‎_name
+> rails g angular_creator:service‎ Service‎Name
    create  app/assets/javascripts/ng/services‎/service_name.coffe
 ```

@@ -1,4 +1,4 @@
-@APP.filter.<%= class_name %> = [
+@APP.filter.<%= class_name.classify %> = [
   ->
     <%= class_name %> = (data) ->
       data

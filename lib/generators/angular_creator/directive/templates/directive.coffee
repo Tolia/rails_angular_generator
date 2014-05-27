@@ -1,4 +1,4 @@
-@APP.directive.<%= class_name %> = [
+@APP.directive.<%= class_name.classify %> = [
   () ->
     restrict: "C" # "ACE"
     # transclude: true    
