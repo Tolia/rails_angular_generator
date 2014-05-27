@@ -7,7 +7,6 @@ generate a angular distribution for your rails app
 First start by adding this gem to your Gemfile:
 ```
 gem "rails_angular_creator", git: 'Tolia/rails_angular_creator'
-
 ```
 And then execute
 ```
@@ -18,12 +17,12 @@ $ bundle
 ## Usage
 
 AngularCreator generator:
--  angular_creator:assets
--  angular_creator:controller
--  angular_creator:directive
--  angular_creator:factory
--  angular_creator:filter
--  angular_creator:service‎
+-  [angular_creator:assets](#init-angular-assets)
+-  [angular_creator:controller](#generator-angular-controller)
+-  [angular_creator:directive](#generator-angular-directive)
+-  [angular_creator:factory](#generator-angular-factory)
+-  [angular_creator:filter](#generator-angular-filter)
+-  [angular_creator:service](#generator-angular-service)
 
 ### init angular assets
 ```
