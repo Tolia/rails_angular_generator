@@ -6,7 +6,7 @@ generate a angular distribution for your rails app
 
 First start by adding this gem to your Gemfile:
 ```
-gem "rails_angular_creator", git: 'Tolia/rails_angular_creator'
+gem "rails_angular_generator", git: 'Tolia/rails_angular_generator'
 ```
 And then execute
 ```

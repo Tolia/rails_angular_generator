@@ -5,7 +5,7 @@ require "rails_angular_creator"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "rails_angular_creator"
+  s.name        = "rails_angular_generator"
   s.version     = RailsAngularCreator::VERSION
   s.authors     = ["Tolia"]
   s.email       = ["toliademidov@gmail.com"]
