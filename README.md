@@ -1,4 +1,4 @@
-# rails_angular_creator
+# rails_angular_generator
 
 generate a angular distribution for your rails app
 
@@ -15,14 +15,16 @@ $ bundle
 
 
 ## Usage
-
-AngularCreator generator:
+```
+> rails g
+Angular:
 -  angular_creator:assets
 -  angular_creator:controller
 -  angular_creator:directive
 -  angular_creator:factory
 -  angular_creator:filter
 -  angular_creator:service‎
+```
 
 ### init angular assets
 ``` pry
@@ -43,7 +45,8 @@ AngularCreator generator:
 ``` pry
 > rails g angular_creator:controller ControllerName
    create  app/assets/javascripts/ng/controllers/controller_name.coffee
-
+```
+```
 > cat app/assets/javascripts/ng/controllers/controller_name.coffee
 @APP.controller.ControllerName = [
   "$scope"
