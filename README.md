@@ -115,10 +115,10 @@ Angular:
 ### generator angular service
 ``` rs
 > rails g angular:service Service_Name
-   create  app/assets/javascripts/ng/services/service_name.coffe
+   create  app/assets/javascripts/ng/services/service_name.coffee
 ```
 ``` coffee
-> cat app/assets/javascripts/ng/services/service_name.coffe
+> cat app/assets/javascripts/ng/services/service_name.coffee
 @APP.service.ServiceName = [
   () ->
     ServiceName = {}
