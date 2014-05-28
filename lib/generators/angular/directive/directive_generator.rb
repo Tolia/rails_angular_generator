@@ -1,4 +1,4 @@
-module AngularCreator
+module Angular
   class DirectiveGenerator < RailsAngularCreator::FileGenerator   
     def create
       create_directive

@@ -18,17 +18,17 @@ $ bundle
 ```
 > rails g
 Angular:
--  angular_creator:assets
--  angular_creator:controller
--  angular_creator:directive
--  angular_creator:factory
--  angular_creator:filter
--  angular_creator:service‎
+-  angular:assets
+-  angular:controller
+-  angular:directive
+-  angular:factory
+-  angular:filter
+-  angular:service‎
 ```
 
 ### init angular assets
 ``` pry
-> rails g angular_creator:assets
+> rails g angular:assets
    identical  app/assets/javascripts/ng_manifest.js
    identical  app/assets/javascripts/ng/init.coffee
    identical  app/assets/javascripts/ng/settings.coffee
@@ -43,7 +43,7 @@ Angular:
 
 ### generator angular controller
 ``` pry
-> rails g angular_creator:controller ControllerName
+> rails g angular:controller ControllerName
    create  app/assets/javascripts/ng/controllers/controller_name.coffee
 ```
 ```
@@ -57,7 +57,7 @@ Angular:
 
 ### generator angular directive
 ``` pry
-> rails g angular_creator:directive DirectiveName
+> rails g angular:directive DirectiveName
    create  app/assets/javascripts/ng/directives/directive_name.coffee
    create  app/assets/html/directive_name.html.slim
 ```
@@ -87,7 +87,7 @@ Angular:
 
 ### generator angular factory
 ```
-> rails g angular_creator:factory '$factoryName' 
+> rails g angular:factory '$factoryName' 
    create  app/assets/javascripts/ng/factories/factory_name.coffee
 ```
 ```
@@ -100,7 +100,7 @@ Angular:
 
 ### generator angular filter
 ``` pry
-> rails g angular_creator:filter filter_name
+> rails g angular:filter filter_name
    create  app/assets/javascripts/ng/filters/filter_name.coffee
 ```
 ```
@@ -114,7 +114,7 @@ Angular:
 
 ### generator angular service
 ``` pry
-> rails g angular_creator:service Service_Name
+> rails g angular:service Service_Name
    create  app/assets/javascripts/ng/services/service_name.coffe
 ```
 ```

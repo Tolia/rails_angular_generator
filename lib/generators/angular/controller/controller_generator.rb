@@ -1,4 +1,4 @@
-module AngularCreator
+module Angular
   class ControllerGenerator < RailsAngularCreator::FileGenerator
   end
 end

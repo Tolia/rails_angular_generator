@@ -3,7 +3,7 @@ module RailsAngularCreator
   class FileGenerator < ::Rails::Generators::NamedBase
     def self.source_paths
       paths = self.superclass.source_paths
-      paths << File.expand_path("../../generators/angular_creator/#{name.demodulize.gsub("Generator","").downcase}/templates", __FILE__)
+      paths << File.expand_path("../../generators/angular/#{name.demodulize.gsub("Generator","").downcase}/templates", __FILE__)
       paths.flatten
     end
 
