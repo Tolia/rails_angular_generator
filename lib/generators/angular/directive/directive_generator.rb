@@ -13,7 +13,7 @@ module Angular
     end
 
     def create_template
-      template "directive.slim", "#{RailsAngularCreator::ASSETS_HTML_DIR}/#{generator_file}.html.slim"
+      template "directive.slim", "#{::RailsAngularCreator::ASSETS_HTML_DIR}/#{generator_file}.html.slim"
     end
 
   end
